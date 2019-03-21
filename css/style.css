@@ -3,11 +3,15 @@
   box-sizing: border-box;
   margin: 0px;
 }
-body {
-  height: 100%
+body, html{
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
+
+
 .parallax {
-  height: 500px;
+  height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,6 +19,9 @@ body {
 }
 .yellow-backround{
   background-color: #ffd300;
+}
+.black-backround{
+  background-color: #000;
 }
 .yellow-text{
   color: #ffd300;
@@ -34,7 +41,7 @@ body {
 .contact-button{
   border-radius: 4px;
   border-color: #ffd300;
-  border-width: 2px;
+  border-width: 1px;
   padding: 30px;
   background-color: #163bd1;
   font-size:45px;
