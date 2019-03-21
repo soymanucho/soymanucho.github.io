@@ -1,0 +1,43 @@
+*{
+  font-family: 'ZCOOL XiaoWei', serif;
+  box-sizing: border-box;
+  margin: 0px;
+}
+.parallax-title {
+  background-image: url("../img/ojos-cerrados.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-subtitle {
+  background-image: url("../img/ojos-abiertos.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.yellow-backround{
+  background-color: #ffd300;
+}
+.yellow-text{
+  color: #ffd300;
+}
+.purple-backround{
+  background-color: #7f1aaf;
+}
+.purple-text{
+  color: #7f1aaf;
+}
+.black-backround{
+  background-color: #000;
+}
+.text-centered{
+  text-align: center;
+}
+.section{
+  padding:150px;
+  height: 300px;
+}
