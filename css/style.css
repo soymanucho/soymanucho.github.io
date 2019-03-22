@@ -13,6 +13,11 @@ a{
   font-size:32px;
   color: #ffd300;
 }
+a::hover{
+  transition:200;
+  font-size:35px;
+  color: white;
+}
 
 .parallax {
   height: 100%;
