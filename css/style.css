@@ -8,7 +8,10 @@ body, html{
   margin: 0;
   padding: 0;
 }
-
+a{
+text-decoration: none;
+font-size:32px;
+}
 
 .parallax {
   height: 100%;
