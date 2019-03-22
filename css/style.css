@@ -9,9 +9,9 @@ body, html{
   padding: 0;
 }
 a{
-text-decoration: none;
-font-size:32px;
-  color:#ffd300;
+  text-decoration: none;
+  font-size:32px;
+  color: #ffd300;
 }
 
 .parallax {
@@ -61,6 +61,6 @@ font-size:32px;
 }
 @media only screen and (max-device-width: 1366px) {
   .parallax {
-    /*background-attachment: scroll;*/
+    background-attachment: scroll;
   }
 }
