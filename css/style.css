@@ -84,8 +84,4 @@ a:hover{
   background-color: white;
 }
 
-@media only screen and (max-device-width: 1366px) {
-  .parallax {
-    background-attachment: scroll;
-  }
-}
+
