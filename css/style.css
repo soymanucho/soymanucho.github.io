@@ -25,6 +25,8 @@ a:hover{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  transition: 0.4s;
 }
 .yellow-backround{
   background-color: #ffd300;
@@ -69,7 +71,6 @@ a:hover{
 .badge{
   position: absolute;
   top:0;
-
   height: 10px;
   width: 35px;
   right: 0;
@@ -77,6 +78,9 @@ a:hover{
   margin: 10px;
 }
 .section:hover .badge{
+  background-color: white;
+}
+.parallax:hover .badge{
   background-color: white;
 }
 
