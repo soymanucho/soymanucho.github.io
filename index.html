@@ -14,14 +14,16 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script type="text/javascript">
       window.onload = function() {
         var d = new Date();
         var n = d.getFullYear();
         var year1 = n - 1994
         var year2 = n - 2017
-        var textAgeExp = "I'm " + year1 +" years old and I've been working as a Backend Developer "+ year2 + " years now."
+        var textAgeExp = "I'm " + year1 +" years old and I've been working as a Software Developer "+ year2 + " years now."
         document.getElementById("ageAndExp").innerHTML = textAgeExp
+        var rightsReserved = "All rights reserved."+n+"."
     }
     </script>
     <!-- <script>
@@ -72,8 +74,28 @@
       <div class="badge"></div>
       <div class="section yellow-backround purple-text">
         <div class="badge"></div>
-        <h2>Or take a look at <a href="http://larafood.herokuapp.com/">Larafood deployed on Heroku Dyno</a> </h2>
+        <h2>Or take a look at my jobs deployed on Heroku Dynos</h2>
       </div>
+       <div class="row">
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Larafood</h5>
+                <p class="card-text">Application developed as a final proyect on Digial House course</p>
+                <a href="http://larafood.herokuapp.com/" class="btn btn-primary">Go to dyno</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Auditoría Sanitaria</h5>
+                <p class="card-text">First real-world application developed with my friend <a href="https://github.com/sebastianbadaro">Sebastian Badaró</a></p>
+                <a href="https://auditsanit.herokuapp.com/" class="btn btn-primary">Jump to project</a>
+              </div>
+            </div>
+          </div>
+        </div>
     </div> 
   <div class="parallax" style='background-image: url("img/barro.jpg");'>
     <div class="badge"></div>
@@ -103,7 +125,7 @@
     <div class="badge"></div>
     <div class="section yellow-backround purple-text">
       <div class="badge"></div>
-      <h2>All rights reserved. 2019.</h2>
+      <h2 id= "rights"></h2>
     </div>
   </div>
   </body>
